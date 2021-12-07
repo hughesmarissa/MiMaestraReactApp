@@ -8,10 +8,12 @@ import axios from 'axios';
 
 function App() {
     const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS);
-    const [categories, setCategories] = useState();
+    const [categories, setCategories] = useState([]);
     
     const categoryEl = useRef();
-    useEffect(() => {
+    const amountEl = useRef();
+
+    useEffect(() => { //for Catergories
         axios
         .get('https://opentdb.com/api_category.php')
         .then(res => {
@@ -59,6 +61,10 @@ function App() {
                             return <option value="category.id" key={category.id}>{category.name}</option>
                         })}
                     </select>
+                </div>
+                <div className="form-group">
+                    <label htmlFor="amount">Number of Questions</label>
+                    <input type="number" id="amount" min="1" step="1" defaulValue={10} ref={amountEl} />
                 </div>
             </form>
             <div className='container'>
