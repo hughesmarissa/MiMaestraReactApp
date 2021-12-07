@@ -1,7 +1,19 @@
 body {
     background-color: #C8D0D2;
+    margin: 0;
 }
  
+.container {
+    max-width: 900px;
+    margin: 1.5rem 2rem;
+}
+.card-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, ifr));
+    gap: 1rem;
+}
+
 .card {
     display: flex;
     justify-content: center;
@@ -10,7 +22,7 @@ body {
     border-radius: .25rem;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
     height: 150px;
-    width: 300px;
+    /* width: 300px; remove width to scale with browser size */
     transform-style: preserve-3d;
     transition: 1000ms;
     background-color: white;
