@@ -1,4 +1,4 @@
-import React,  { useState } from 'react'
+import React,  { useState } from 'react';
 
 export default function Flashcard({ flashcard }) {
     const [flip, setFlip] = useState(false);
@@ -9,7 +9,7 @@ export default function Flashcard({ flashcard }) {
             onClick={() => setFlip(!flip)}    
         >
             <div className='front'>
-                {flashcard.quesiton}
+                {flashcard.question}
                 <div className='flashcard-options'>
                     {flashcard.options.map(option => {
                         return <div className='flashcard-option'>{option}</div>
