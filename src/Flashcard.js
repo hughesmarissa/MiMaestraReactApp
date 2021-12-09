@@ -8,9 +8,9 @@ export default function Flashcard({ flashcard }) {
     const backEl = useRef();
     
     function setMaxHeight() {
-        const frontHeight = frontEl.current.getBoundingClientRect().height
-        const backHeight = backEl.current.getBoundingClientRect().height
-        setHeight(Math.max(frontHeight, backHeight, 100))
+        const frontHeight = frontEl.current.getBoundingClientRect().height;
+        const backHeight = backEl.current.getBoundingClientRect().height;
+        setHeight(Math.max(frontHeight, backHeight, 100));
     }
 
     useEffect(setMaxHeight, [flashcard.question, flashcard.answer, flashcard.options]);
