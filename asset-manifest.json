@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MiMaestraReactApp/static/css/main.143bb98c.chunk.css",
+    "main.js": "/MiMaestraReactApp/static/js/main.5192c704.chunk.js",
+    "main.js.map": "/MiMaestraReactApp/static/js/main.5192c704.chunk.js.map",
+    "runtime-main.js": "/MiMaestraReactApp/static/js/runtime-main.e3ba9beb.js",
+    "runtime-main.js.map": "/MiMaestraReactApp/static/js/runtime-main.e3ba9beb.js.map",
+    "static/js/2.01bfaa87.chunk.js": "/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js",
+    "static/js/2.01bfaa87.chunk.js.map": "/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js.map",
+    "index.html": "/MiMaestraReactApp/index.html",
+    "static/css/main.143bb98c.chunk.css.map": "/MiMaestraReactApp/static/css/main.143bb98c.chunk.css.map",
+    "static/js/2.01bfaa87.chunk.js.LICENSE.txt": "/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3ba9beb.js",
+    "static/js/2.01bfaa87.chunk.js",
+    "static/css/main.143bb98c.chunk.css",
+    "static/js/main.5192c704.chunk.js"
+  ]
+}
