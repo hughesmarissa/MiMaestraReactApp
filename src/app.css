@@ -61,7 +61,7 @@ body {
     /* width: 300px; remove width to scale with browser size */
     transform-style: preserve-3d;
     transition: 1000ms;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 20px;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0))
     translateY(var(--translate-y, 0));
