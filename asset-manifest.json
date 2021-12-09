@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hughesmarissa/MiMaestraReactApp/static/css/main.c341d154.chunk.css",
+    "main.js": "/hughesmarissa/MiMaestraReactApp/static/js/main.5192c704.chunk.js",
+    "main.js.map": "/hughesmarissa/MiMaestraReactApp/static/js/main.5192c704.chunk.js.map",
+    "runtime-main.js": "/hughesmarissa/MiMaestraReactApp/static/js/runtime-main.ea70154b.js",
+    "runtime-main.js.map": "/hughesmarissa/MiMaestraReactApp/static/js/runtime-main.ea70154b.js.map",
+    "static/js/2.01bfaa87.chunk.js": "/hughesmarissa/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js",
+    "static/js/2.01bfaa87.chunk.js.map": "/hughesmarissa/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js.map",
+    "index.html": "/hughesmarissa/MiMaestraReactApp/index.html",
+    "static/css/main.c341d154.chunk.css.map": "/hughesmarissa/MiMaestraReactApp/static/css/main.c341d154.chunk.css.map",
+    "static/js/2.01bfaa87.chunk.js.LICENSE.txt": "/hughesmarissa/MiMaestraReactApp/static/js/2.01bfaa87.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea70154b.js",
+    "static/js/2.01bfaa87.chunk.js",
+    "static/css/main.c341d154.chunk.css",
+    "static/js/main.5192c704.chunk.js"
+  ]
+}
