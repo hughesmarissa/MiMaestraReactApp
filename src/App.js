@@ -66,6 +66,9 @@ function App() {
                     <label htmlFor="amount">Number of Questions</label>
                     <input type="number" id="amount" min="1" step="1" defaulValue={10} ref={amountEl} />
                 </div>
+                <div className="form-group">
+                    <button className="btn">Generate</button>
+                </div>
             </form>
             <div className='container'>
                 <FlashcardList flashcards={flashcards} />
